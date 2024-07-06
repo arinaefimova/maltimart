@@ -1,0 +1,66 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    background: var(--primary-color);
+
+    &__text {
+        line-height: 30px;
+        color: rgb(255, 255, 255, 0.735);
+    }
+
+    &__quick-links {
+        ul{
+            li{
+                background: transparent !important;
+                a{
+                    color: rgb(255, 255, 255, 0.735);
+                }
+            }
+        }
+    }
+
+    &__copyright {
+        color: rgb(255, 255, 255, 0.735);
+        font-size: 0.9rem;
+        margin-top: 50px;
+        text-align: center;
+    }
+    &__contacts{
+        li{
+            color: rgb(255, 255, 255, 0.735);
+            span{
+                font-size: 1.2rem;
+            }
+            p{
+               font-size: 0.9rem; 
+            }
+        }
+    }
+}
+.logo {
+
+    &__row {
+    }
+}
+.mt-4 {
+}
+.quick {
+
+    &__links-title {
+        margin-bottom: 30px;
+        color: #fff;
+        font-size: 1.1rem;
+    }
+}
+.mb-3 {
+}
+.ps-0 {
+}
+.border-0 {
+}
+.ri-map-pin-line {
+}
+.ri-phone-line {
+}
+.ri-mail-line {
+}

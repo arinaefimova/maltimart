@@ -1,0 +1,22 @@
+.table{
+    tr{
+        td{
+            img{
+                width: 50px !important;
+                height: 50px !important;
+                object-fit: cover;
+            }
+            i{
+                cursor: pointer;
+            }
+        }
+    }
+}
+td, th{
+    color: var(--primary-color);
+}
+.del{
+    @media (max-width: 360px){
+          display: none;
+    }
+}
